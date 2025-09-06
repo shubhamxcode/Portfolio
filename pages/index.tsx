@@ -120,8 +120,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://www.devbond.fun`} />
-        <link rel="canonical" href={`https://www.devbond.fun`} />
+        <meta property="og:url" content={`https://portfolio-ydav.vercel.app`} />
+        <link rel="canonical" href={`https://portfolio-ydav.vercel.app`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Shubham Varshney" />
         <meta property="og:description" content={meta.description} />
