@@ -77,9 +77,9 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
 
                     {/* Image Section (Desktop and Tablet) */}
           <div className="group relative lg:w-96 lg:h-[32rem] md:w-72 md:h-96 md:block hidden">
-            <div className="group-hover:-translate-x-3 group-hover:-translate-y-3 duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 translate-y-5 rounded"></div>
+            <div className="group-hover:-translate-x-3 group-hover:-translate-y-3 duration-0 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 translate-y-5 rounded"></div>
             <div className="absolute w-5/6 h-5/6 rounded overflow-hidden">
-              <div className="absolute w-full h-full group-hover:opacity-10 bg-AAsecondary opacity-0 duration-300 rounded overflow-hidden"></div>
+              <div className="absolute w-full h-full group-hover:opacity-10 bg-AAsecondary opacity-0 duration-0 rounded overflow-hidden"></div>
               <Img
                 src={"/myimage.jpeg"}
                 className={"object-contain rounded-lg"}
@@ -90,7 +90,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
 
           {/* Image Section (Mobile) */}
           <div className="group relative w-full h-80 md:hidden flex justify-center items-center">
-            <div className="group-hover:-translate-x-5 group-hover:-translate-y-5 duration-300 absolute w-48 h-full rounded translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
+            <div className="group-hover:-translate-x-5 group-hover:-translate-y-5 duration-0 absolute w-48 h-full rounded translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
                 src={"/myimage.jpeg"}
@@ -98,7 +98,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
                 alt="My Image Not Found"
               />
             </div>
-            <div className="group-hover:opacity-10 duration-300 absolute w-48 h-full bg-AAsecondary opacity-0 rounded overflow-hidden"></div>
+            <div className="group-hover:opacity-10 duration-0 absolute w-48 h-full bg-AAsecondary opacity-0 rounded overflow-hidden"></div>
           </div>
         </div>
       </div>
